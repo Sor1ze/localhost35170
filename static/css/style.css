@@ -1,0 +1,87 @@
+
+body{
+  background-color: #e6e6e6;
+}
+
+.navbar{
+  background-color: white;
+  padding-top: 5px;
+
+}
+
+.navbar a{
+  color: black;
+  font-weight: 500;
+  font-size: 18pt;
+  margin-right: 40px;
+}
+
+
+
+
+
+.magazin_images:hover,
+.magazin_images:focus{
+  background-color: white;
+}
+
+.card-signup{
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.card-login{
+  margin-left: 350px;
+  margin-top: 250px;
+}
+
+.nav-link{
+  color: #f6f6f6;
+  font-size: 13pt;
+  padding-left: 20px;
+}
+
+
+
+.profile-container{
+
+  margin-top: 80px;
+}
+
+.card-dopkyrs{
+
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #7f7f7f;
+}
+
+.menu{
+  border: 2px solid #999;
+  border-radius: 5px;
+  position: fixed;
+  right: 20px;
+  top: 120px;
+  width: 15%;
+  height: 28%;
+  overflow: auto;
+  background-color: white;
+
+
+}
+
+.menu h2{
+  margin-top: 10px;
+  display: block;
+  padding-left: 20px;
+  color: #212529;
+
+}
+
+.menu h2:hover,
+.menu h2:focus{
+  display: block;
+  color: gray;
+  text-decoration: none;
+  padding-left: 25px;
+  padding-top: 2px;
+}

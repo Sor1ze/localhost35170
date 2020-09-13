@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Самарский облостной центр детско-юношеского технического творчества
+{% endblock %}
+
+{% block content %}
+{% for lekcia in lekcias %}
+{% include 'includes/include_lekcias_list.html' %}
+{% endfor %}
+
+
+
+
+{% endblock %}
+
+
+{% block menu %}
+
+<div class="menu aligt-items-center" align=center>
+  <h2>Топ 3 лучших: </h2>
+  <hr />
+  {% for student in students %}
+  <h4 align=center>{{student.user}}</h4>
+  <hr />
+  {% endfor %}
+</div>
+{% endblock %}
+
+
+
+{% for student in students %}
+{% for student in students.photo_student.all %}
+<img src="{{student.photo_student.url}}"  width="10" height="10" alt="{{student.user}}">
+{% endfor %}
+<h2 align=center>{{student.user}}</h2>
+<hr />
+{% endfor %}
